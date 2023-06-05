@@ -88,24 +88,9 @@ public class Hungry {	// 클래스 선언
 		"\t\"name\":\"눈송이\"\n" +
 		"}";
 		
-		String str2 = """
-			{
-				"id":"winter"
-				"name":"눈송이"
-			}
-				""";
 		System.out.println(str1);
 		System.out.println("----------------------------------------");
-		System.out.println(str2);
-		System.out.println("----------------------------------------");
-		String str3 = """
-		나는 자바를 \
-		학습합니다.
-		나는 자바 고수가 될 겁니다.
-		""";
-		System.out.println(str3);
-		
-		
+
 		// 자동 변환 
 		byte byteValue = 10;
 		int intValue = byteValue;

@@ -29,7 +29,7 @@ public class ExArrayInArray {
 	
 	public void totalBySubject() {
 		str = "과목별 총합" ;
-		tatle();
+		title();
 		gap();
 		for (int i = 0; i < score[i].length; i++) {
 			System.out.println(" * " + subject[i] + "의 총합 : " + subjectTotal[i] + " 점");
@@ -39,7 +39,7 @@ public class ExArrayInArray {
 	
 	public void subjectByAverage() {
 		str = "과목별 평균" ;
-		tatle();
+		title();
 		gap();
 		for (int i = 0; i < score[i].length; i++) {
 			double subjecAverage = (double) subjectTotal[i] / score.length;
@@ -50,7 +50,7 @@ public class ExArrayInArray {
 	
 	public void totalByPerson() {
 		str = "학생별 총합" ;
-		tatle();
+		title();
 		gap();
 		for (int i = 0; i < score.length; i++) {
 			System.out.println(" * " + name[i] + "의 총합 : " + personTotal[i] + "점");
@@ -60,7 +60,7 @@ public class ExArrayInArray {
 	
 	public void personByAverage() {
 		str = "학생별 평균" ;
-		tatle();
+		title();
 		gap();
 		for (int i = 0; i < score.length; i++) {
 			double personAverage = (double) personTotal[i] / score[i].length;
@@ -69,7 +69,7 @@ public class ExArrayInArray {
 		gap();
 	}
 	
-	public void tatle() {
+	public void title() {
 		System.out.println("--------====" + str + "====--------");
 	}
 	public void gap() {
