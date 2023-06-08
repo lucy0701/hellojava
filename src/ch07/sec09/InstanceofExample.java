@@ -19,10 +19,10 @@ public class InstanceofExample {
 		
 		//person이 참조하는 객체가 Student 타입일 경우
 		//student.study();
-		if(person instanceof Student student) {
-			System.out.println("studentNo: " + student.studentNo);
-			student.study();
-		}
+//		if(person instanceof Student student) {
+//			System.out.println("studentNo: " + student.studentNo);
+//			student.study(); // java 12 부터 가
+//		}
 	}
 	
 	public static void main(String[] agrs) {
