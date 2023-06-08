@@ -20,7 +20,6 @@ public class LottoGenerator {
 				number = random.nextInt(45) + 1;
 			} while (contains(numbers, number));
 			
-			
 			numbers[i] = number;
 		}
 		return numbers;
